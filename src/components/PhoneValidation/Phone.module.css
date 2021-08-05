@@ -1,0 +1,119 @@
+.PhoneValidation {
+  display: flex;
+  font-family: 'Roboto';
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  width: 30%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  background: #86d3f4;
+}
+
+.PhoneValidation .title {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.PhoneValidation .confirmedTitle {
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: 900;
+}
+
+.PhoneValidation .text {
+  font-size: 14px;
+  line-height: 16px;
+}
+.PhoneValidation .sucess {
+  background: black;
+  color: white;
+  width: 284px;
+  height: 52px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.PhoneValidation .sucess:enabled:hover {
+  cursor: pointer;
+  background: rgb(194, 175, 175);
+  color: black;
+}
+
+.PhoneValidation .sucess:disabled {
+  background: none;
+  cursor: not-allowed;
+  color: #4e4e4e;
+}
+
+.PhoneValidation .checkbox {
+  display: flex;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #565656;
+  margin-bottom: 13px;
+}
+.PhoneValidation .checkbox input[type='checkbox'] {
+  padding-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  appearance: none;
+  background-color: #86d3f4;
+  border: 2px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PhoneValidation .checkbox input[type='checkbox']::after {
+  content: url('../../images/check.png');
+  font-weight: 1000;
+  font-size: 40px;
+  display: none;
+}
+
+.PhoneValidation .checkbox input[type='checkbox']:checked:after {
+  display: block;
+}
+
+.PhoneValidation .phoneButtons button {
+  height: 52px;
+  background: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+.PhoneValidation .phoneButtons button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.PhoneValidation .phoneButtons {
+  display: grid;
+  margin: 30px;
+  min-height: 52px;
+  gap: 10px;
+  grid-template-columns: repeat(3, 88px);
+}
+
+.PhoneValidation .phoneButtons .clearButton {
+  grid-column: span 2;
+}
+.PhoneValidation .phoneDisplay {
+  margin-left: 140px;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 32px;
+  line-height: 37px;
+}

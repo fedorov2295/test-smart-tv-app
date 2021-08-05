@@ -1,0 +1,60 @@
+.Banner {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-weight: 1000;
+  align-items: center;
+  padding: 30px 10px 10px;
+  background: #86d3f4;
+  position: absolute;
+  width: 251px;
+  height: 357px;
+  right: 0px;
+  top: 220px;
+}
+.Banner .title {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+}
+.Banner .qrcode {
+  position: absolute;
+  width: 126px;
+  height: 126px;
+  margin: 97px 62.5px 134px 62.5px;
+  background: url(../../images/index\ 1.png);
+}
+.Banner .qrok {
+  font-weight: normal;
+  position: absolute;
+  margin: 243px 62.5px 82px 62.5px;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.Banner .okbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: #86d3f4;
+  position: absolute;
+  width: 156px;
+  height: 52px;
+  margin: 295px 47.5px 10px 47.5px;
+  background: #000000;
+}
+
+.Banner .okbutton:hover {
+  background: #86d3f4;
+  color: #000000;
+  cursor: pointer;
+}
