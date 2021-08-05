@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/test-smart-tv/static/css/main.05866952.chunk.css",
-    "main.js": "/test-smart-tv/static/js/main.0e204196.chunk.js",
-    "main.js.map": "/test-smart-tv/static/js/main.0e204196.chunk.js.map",
+    "main.js": "/test-smart-tv/static/js/main.73f4c32e.chunk.js",
+    "main.js.map": "/test-smart-tv/static/js/main.73f4c32e.chunk.js.map",
     "runtime-main.js": "/test-smart-tv/static/js/runtime-main.b79027aa.js",
     "runtime-main.js.map": "/test-smart-tv/static/js/runtime-main.b79027aa.js.map",
     "static/js/2.83816dad.chunk.js": "/test-smart-tv/static/js/2.83816dad.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b79027aa.js",
     "static/js/2.83816dad.chunk.js",
     "static/css/main.05866952.chunk.css",
-    "static/js/main.0e204196.chunk.js"
+    "static/js/main.73f4c32e.chunk.js"
   ]
 }
