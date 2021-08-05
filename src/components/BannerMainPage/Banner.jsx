@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './Banner.module.css';
 
 const Banner = (props) => {
@@ -11,9 +12,9 @@ const Banner = (props) => {
       </p>
       <div className={classes.qrcode}></div>
       <p className={classes.qrok}>Сканируйте QR-код или нажмите ОК</p>
-      <button className={classes.okbutton} onClick={props.onOkHandler}>
-        OK
-      </button>
+      <Link to="checkout">
+        <button className={classes.okbutton}>OK</button>
+      </Link>
     </div>
   );
 };

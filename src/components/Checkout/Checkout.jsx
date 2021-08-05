@@ -1,17 +1,16 @@
 import React from 'react';
 import Phone from '../PhoneValidation/Phone';
 import classes from './Checkout.module.css';
+import { Link } from 'react-router-dom';
 
-const Checkout = (props) => {
-  const onExitClickHandler = () => {
-    props.history.goBack();
-  };
-
+const Checkout = () => {
   return (
     <div className={classes.promo}>
-      <button className={classes.exit} onClick={onExitClickHandler}>
-        <div>+</div>
-      </button>
+      <Link to="/">
+        <button className={classes.exit}>
+          <div>+</div>
+        </button>
+      </Link>
       <Phone />
       <div className={classes.qrwrapper}>
         <label>
