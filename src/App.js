@@ -11,7 +11,7 @@ function App() {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/checkout" component={Checkout} />
-          <Route path="/" component={MainPage} />
+          <Route path="/" exact component={MainPage} />
         </Switch>
       </HashRouter>
     </div>
