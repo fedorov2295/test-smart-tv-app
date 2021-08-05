@@ -8,9 +8,9 @@ import Checkout from './components/Checkout/Checkout';
 function App() {
   return (
     <div className={classes.main}>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="/">
         <Switch>
-          <Route path="/checkout" component={Checkout} />
+          <Route path="/checkout" exact component={Checkout} />
           <Route path="/" exact component={MainPage} />
         </Switch>
       </HashRouter>
