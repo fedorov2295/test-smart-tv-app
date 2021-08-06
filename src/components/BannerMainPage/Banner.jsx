@@ -12,7 +12,7 @@ const Banner = (props) => {
       </p>
       <div className={classes.qrcode}></div>
       <p className={classes.qrok}>Сканируйте QR-код или нажмите ОК</p>
-      <Link to="checkout">
+      <Link to="/checkout">
         <button className={classes.okbutton}>OK</button>
       </Link>
     </div>
