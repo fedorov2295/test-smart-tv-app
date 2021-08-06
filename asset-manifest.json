@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/test-smart-tv/static/css/main.05866952.chunk.css",
-    "main.js": "/test-smart-tv/static/js/main.933ffb8a.chunk.js",
-    "main.js.map": "/test-smart-tv/static/js/main.933ffb8a.chunk.js.map",
-    "runtime-main.js": "/test-smart-tv/static/js/runtime-main.b79027aa.js",
-    "runtime-main.js.map": "/test-smart-tv/static/js/runtime-main.b79027aa.js.map",
-    "static/js/2.b3bfed50.chunk.js": "/test-smart-tv/static/js/2.b3bfed50.chunk.js",
-    "static/js/2.b3bfed50.chunk.js.map": "/test-smart-tv/static/js/2.b3bfed50.chunk.js.map",
-    "static/js/3.01064132.chunk.js": "/test-smart-tv/static/js/3.01064132.chunk.js",
-    "static/js/3.01064132.chunk.js.map": "/test-smart-tv/static/js/3.01064132.chunk.js.map",
+    "main.css": "/test-smart-tv/static/css/main.f3a55a15.chunk.css",
+    "main.js": "/test-smart-tv/static/js/main.8b36ce30.chunk.js",
+    "main.js.map": "/test-smart-tv/static/js/main.8b36ce30.chunk.js.map",
+    "runtime-main.js": "/test-smart-tv/static/js/runtime-main.42315a54.js",
+    "runtime-main.js.map": "/test-smart-tv/static/js/runtime-main.42315a54.js.map",
+    "static/js/2.91f7c7f0.chunk.js": "/test-smart-tv/static/js/2.91f7c7f0.chunk.js",
+    "static/js/2.91f7c7f0.chunk.js.map": "/test-smart-tv/static/js/2.91f7c7f0.chunk.js.map",
+    "static/js/3.817fdff9.chunk.js": "/test-smart-tv/static/js/3.817fdff9.chunk.js",
+    "static/js/3.817fdff9.chunk.js.map": "/test-smart-tv/static/js/3.817fdff9.chunk.js.map",
     "index.html": "/test-smart-tv/index.html",
-    "static/css/main.05866952.chunk.css.map": "/test-smart-tv/static/css/main.05866952.chunk.css.map",
-    "static/js/2.b3bfed50.chunk.js.LICENSE.txt": "/test-smart-tv/static/js/2.b3bfed50.chunk.js.LICENSE.txt",
+    "static/css/main.f3a55a15.chunk.css.map": "/test-smart-tv/static/css/main.f3a55a15.chunk.css.map",
+    "static/js/2.91f7c7f0.chunk.js.LICENSE.txt": "/test-smart-tv/static/js/2.91f7c7f0.chunk.js.LICENSE.txt",
     "static/media/Checkout.module.css": "/test-smart-tv/static/media/scale_1200.c5935bdd.png",
     "static/media/MainPage.module.css": "/test-smart-tv/static/media/video.2cdfa738.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b79027aa.js",
-    "static/js/2.b3bfed50.chunk.js",
-    "static/css/main.05866952.chunk.css",
-    "static/js/main.933ffb8a.chunk.js"
+    "static/js/runtime-main.42315a54.js",
+    "static/js/2.91f7c7f0.chunk.js",
+    "static/css/main.f3a55a15.chunk.css",
+    "static/js/main.8b36ce30.chunk.js"
   ]
 }
